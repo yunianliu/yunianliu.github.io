@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://kkimgs.yisou.com/ims?kt=url&at=ori&key=aHR0cDovL2kyLmhkc2xiLmNvbS9iZnMvYXJjaGl2ZS9mMzM5ZjAxN2Q2NTFlYzk0OWMxZTJiMDk2ZTE2YmQwMTliYWMzZDQ2LmpwZ0Aud2VicA==&sign=yx:eopL3l-5nKx5wsUzPP6iedMBmco=&tv=0_0" width="89" height="89" alt="奶龙图片">
+<div>
+  <input type="password" id="pwdInput" placeholder="请输入密码">
+  <button onclick="showTipWithInput()">确认</button>
+</div>
+<p id="tip" hidden>💠柳语念 </p>
+<script>
+function showTipWithInput() {
+  var input = document.getElementById('pwdInput');
+  var password = input.value;
+  var correctPassword = '123456';
+  if (password === correctPassword) {
+    document.getElementById('tip').hidden = false;
+    alert('✅密码正确，名字已显示！ ');
+  } else {
+    alert('❌密码错误，请重试！ ');
+    input.value = ''; // 清空输入框
+    input.focus();   // 让输入框重新获得焦点
+  }
+}
+</script>
+<h1> 爱好</h1>
+<p>
+    1.吃饭：<meter value="65" min="0" max="100">65</meter><span id="label" style="min-width:45px; font-weight:bold;">65%</span><br/>
+    2.睡觉：<meter value="80" min="0" max="100">80</meter><span id="label" style="min-width:45px; font-weight:bold;">76%</span><br/>
+    3.看悟悟：<meter value="75" min="0" max="100">75</meter> <span id="label" style="min-width:45px; font-weight:bold;">76%</span>
+</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;论文*下载</p>
+    <a href="https://www.runoob.com/html/html-colorvalues.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一篇论文</a>
+</body>
+</html>

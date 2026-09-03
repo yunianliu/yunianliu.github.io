@@ -123,7 +123,8 @@
         </ol>
     </div>
         <div class="section">
-            <p style="color:red";>论文*下载</p>
+            <p>论文*下载</p>
+            <br>
             <a class="link-box" href="https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97%E7%9A%84%E5%86%AC%E5%A4%A9/7335604">论文</a>
         </div>
     </div>

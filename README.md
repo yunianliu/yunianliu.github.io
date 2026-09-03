@@ -94,8 +94,8 @@
             background: #eff6ff;
         }
     </style>
-</head>
-<body>
+</头>
+<正文>
     <div class="card">
         <div class="profile">
             <img class="avatar" src="https://kkimgs.yisou.com/ims?kt=url&at=ori&key=aHR0cDovL2kyLmhkc2xiLmNvbS9iZnMvYXJjaGl2ZS9mMzM5ZjAxN2Q2NTFlYzk0OWMxZTJiMDk2ZTE2YmQwMTliYWMzZDQ2LmpwZ0Aud2VicA==&sign=yx:eopL3l-5nKx5wsUzPP6iedMBmco=&tv=0_0" alt="奶龙图片">
@@ -122,7 +122,7 @@
         </ol>
     </div>
         <div class="section">
-            <p>论文*下载</p>
+            <p style="color:red";>论文*下载</p>
             <br>
             <a class="link-box" href="https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97%E7%9A%84%E5%86%AC%E5%A4%A9/7335604">论文</a>
         </div>

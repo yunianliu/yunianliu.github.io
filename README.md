@@ -1,4 +1,3 @@
-# yunianliu.github.io
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +39,7 @@
 
         .avatar {
             width: 89px;
-    高度：89px；
+            height: 89px;
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid #dbeafe;
@@ -73,7 +72,7 @@
         ol {
             margin: 0;
             padding-left: 24px;
-    行高：2；
+            line-height: 2;
             color: #475569;
         }
 
@@ -95,15 +94,15 @@
             background: #eff6ff;
         }
     </style>
-</头>
-<正文>
+</head>
+<body>
     <div class="card">
         <div class="profile">
             <img class="avatar" src="https://kkimgs.yisou.com/ims?kt=url&at=ori&key=aHR0cDovL2kyLmhkc2xiLmNvbS9iZnMvYXJjaGl2ZS9mMzM5ZjAxN2Q2NTFlYzk0OWMxZTJiMDk2ZTE2YmQwMTliYWMzZDQ2LmpwZ0Aud2VicA==&sign=yx:eopL3l-5nKx5wsUzPP6iedMBmco=&tv=0_0" alt="奶龙图片">
             <h1>柳语念</h1>
             <br>
-            <h3>电话：12345678910</h3>
-            <h3>邮箱：meiyou</h3>
+            <h3>Tel:12345678910</h3>
+            <h3>Email:meiyou</h3>
         </div>
 
         <div class="section">
@@ -123,8 +122,7 @@
         </ol>
     </div>
         <div class="section">
-            <p>论文*下载</p>
-            <br>
+            <p class="section-title" style="color:red";>论文*下载</p>
             <a class="link-box" href="https://baike.baidu.com/item/%E6%B5%8E%E5%8D%97%E7%9A%84%E5%86%AC%E5%A4%A9/7335604">论文</a>
         </div>
     </div>
